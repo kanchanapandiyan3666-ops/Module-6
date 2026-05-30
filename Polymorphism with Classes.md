@@ -26,7 +26,23 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
-
+```
+class Dog:
+    def sound(self):
+        print("Dog barks")
+class Cat:
+    def sound(self):
+        print("Cat meows")
+d = Dog()
+c = Cat()
+d.sound()
+c.sound()
+```
 ## Output
+```
+Dog barks
+Cat meows
+```
 
 ## Result
+Thus, the program has been executed successfully.
